@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/left"
+        android:icon="@drawable/ic_left"
+        android:title="@string/left"
+        app:showAsAction="always" />
+    <item android:id="@+id/right"
+        android:icon="@drawable/ic_right"
+        android:title="@string/right"
+        app:showAsAction="always"
+        />
+
+
+</menu>
